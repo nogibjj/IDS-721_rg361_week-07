@@ -74,8 +74,8 @@ The following 3 values are plotted on a 2D graph to demonstrate the process:
 - The random vector generated for the query
 - The 3 closest vectors to the query vector
 
-**Visualization**:
-![visualization](./resources/vector_space_model.png)
+**Visualization**:  
+![visualization](./resources/vector_visualization.png)
 
 **Note**: since these points are all randomly generated, the visualization may look different each time the code is run.
 
