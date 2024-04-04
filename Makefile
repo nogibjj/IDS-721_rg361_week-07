@@ -6,3 +6,7 @@ format:
 
 lint:
 	find . -type f -name "*.toml" -exec cargo clippy  --quiet --manifest-path {} \;
+build:
+	find . -type f -name "*.toml" -exec cargo build  --quiet --manifest-path {} \;
+		
+all: build test format lint
